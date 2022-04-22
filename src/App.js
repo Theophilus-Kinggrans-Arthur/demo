@@ -1,0 +1,27 @@
+import logo from "./logo.svg";
+import "./App.css";
+import Navbar from "./components/Navbar";
+import Home from "./components/Home";
+import About from "./components/About";
+import Services from "./components/Services";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
+import Login from "./components/Login";
+import Register from "./components/Register";
+
+function App() {
+  return (
+    <>
+      <Navbar />
+      <Home />
+      <About />
+      <Services />
+      <Contact />
+      {/* <Login /> */}
+      {/* <Register /> */}
+      <Footer />
+    </>
+  );
+}
+
+export default App;
